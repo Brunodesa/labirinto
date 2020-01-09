@@ -15,6 +15,7 @@ namespace labirinto
         public Form1()
         {
             InitializeComponent();
+            KeyDown += new KeyEventHandler(Form1_KeyDown);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -32,10 +33,24 @@ namespace labirinto
 
         }
 
-        private void Quadrado_Click(object sender, EventArgs e)
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-
+            switch (e.KeyCode)
+            {
+                case Keys.Left:
+                    pictureBox1.Left -= 8;
+                    break;
+                case Keys.Right:
+                    pictureBox1.Left += 8;
+                    break;
+                case Keys.Up:
+                    pictureBox1.Top -= 8;
+                    break;
+                case Keys.Down:
+                    pictureBox1.Top += 8;
+                    break;
+            }
         }
-
     }
+
 }

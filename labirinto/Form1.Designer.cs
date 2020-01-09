@@ -79,8 +79,8 @@
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
             this.label51 = new System.Windows.Forms.Label();
-            this.quadrado = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.quadrado)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -206,7 +206,7 @@
             // label19
             // 
             this.label19.BackColor = System.Drawing.Color.OrangeRed;
-            this.label19.Location = new System.Drawing.Point(93, 154);
+            this.label19.Location = new System.Drawing.Point(93, 148);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(168, 11);
             this.label19.TabIndex = 18;
@@ -240,7 +240,7 @@
             this.label4.BackColor = System.Drawing.Color.OrangeRed;
             this.label4.Location = new System.Drawing.Point(303, 203);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(199, 11);
+            this.label4.Size = new System.Drawing.Size(216, 11);
             this.label4.TabIndex = 22;
             // 
             // label21
@@ -248,7 +248,7 @@
             this.label21.BackColor = System.Drawing.Color.OrangeRed;
             this.label21.Location = new System.Drawing.Point(416, 71);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(85, 10);
+            this.label21.Size = new System.Drawing.Size(103, 10);
             this.label21.TabIndex = 23;
             // 
             // label22
@@ -278,7 +278,7 @@
             // label25
             // 
             this.label25.BackColor = System.Drawing.Color.OrangeRed;
-            this.label25.Location = new System.Drawing.Point(490, 71);
+            this.label25.Location = new System.Drawing.Point(507, 71);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(12, 132);
             this.label25.TabIndex = 27;
@@ -493,15 +493,14 @@
             this.label51.Size = new System.Drawing.Size(37, 12);
             this.label51.TabIndex = 53;
             // 
-            // quadrado
+            // pictureBox1
             // 
-            this.quadrado.BackgroundImage = global::labirinto.Properties.Resources.qd;
-            this.quadrado.Location = new System.Drawing.Point(54, 22);
-            this.quadrado.Name = "quadrado";
-            this.quadrado.Size = new System.Drawing.Size(33, 27);
-            this.quadrado.TabIndex = 54;
-            this.quadrado.TabStop = false;
-            this.quadrado.Click += new System.EventHandler(this.Quadrado_Click);
+            this.pictureBox1.Image = global::labirinto.Properties.Resources.qd;
+            this.pictureBox1.Location = new System.Drawing.Point(54, 35);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(27, 20);
+            this.pictureBox1.TabIndex = 54;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -509,7 +508,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.quadrado);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label51);
             this.Controls.Add(this.label50);
             this.Controls.Add(this.label49);
@@ -564,7 +563,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.quadrado)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -622,7 +621,7 @@
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
         private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.PictureBox quadrado;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
