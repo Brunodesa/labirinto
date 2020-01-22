@@ -50,7 +50,16 @@ namespace labirinto
                     pictureBox1.Top += 8;
                     break;
             }
+
+
+        private void loose_Tick(object sender, EventArgs e)
+            {
+                if (pictureBox1.Bounds.IntersectsWith(label1.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_2.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_3.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_4.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_5.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_6.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_7.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_8.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_9.Bounds))
+                {
+
+
+                }
+            }
         }
     }
-
 }
