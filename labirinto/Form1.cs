@@ -51,15 +51,21 @@ namespace labirinto
                     break;
             }
 
+        }
+
+
+
 
         private void loose_Tick(object sender, EventArgs e)
-            {
-                if (pictureBox1.Bounds.IntersectsWith(label1.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_2.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_3.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_4.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_5.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_6.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_7.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_8.Bounds) || pictureBox1.Bounds.IntersectsWith(enemy_9.Bounds))
-                {
+        {
+            if (pictureBox1.Bounds.IntersectsWith(label1.Bounds) || pictureBox1.Bounds.IntersectsWith(label2.Bounds) || pictureBox1.Bounds.IntersectsWith(label3.Bounds) || pictureBox1.Bounds.IntersectsWith(label4.Bounds) || pictureBox1.Bounds.IntersectsWith(label5.Bounds) || pictureBox1.Bounds.IntersectsWith(label6.Bounds) || pictureBox1.Bounds.IntersectsWith(label7.Bounds) || pictureBox1.Bounds.IntersectsWith(label8.Bounds) || pictureBox1.Bounds.IntersectsWith(label9.Bounds) || pictureBox1.Bounds.IntersectsWith(label10.Bounds))
+                if (pictureBox1.Bounds.IntersectsWith(label11.Bounds) || pictureBox1.Bounds.IntersectsWith(label12.Bounds) || pictureBox1.Bounds.IntersectsWith(label13.Bounds) || pictureBox1.Bounds.IntersectsWith(label14.Bounds) || pictureBox1.Bounds.IntersectsWith(label15.Bounds) || pictureBox1.Bounds.IntersectsWith(label16.Bounds) || pictureBox1.Bounds.IntersectsWith(label17.Bounds) || pictureBox1.Bounds.IntersectsWith(label18.Bounds) || pictureBox1.Bounds.IntersectsWith(label19.Bounds) || pictureBox1.Bounds.IntersectsWith(label20.Bounds))
+                    if (pictureBox1.Bounds.IntersectsWith(label21.Bounds) || pictureBox1.Bounds.IntersectsWith(label22.Bounds) || pictureBox1.Bounds.IntersectsWith(label23.Bounds) || pictureBox1.Bounds.IntersectsWith(label24.Bounds) || pictureBox1.Bounds.IntersectsWith(label25.Bounds) || pictureBox1.Bounds.IntersectsWith(label26.Bounds) || pictureBox1.Bounds.IntersectsWith(label27.Bounds) || pictureBox1.Bounds.IntersectsWith(label28.Bounds) || pictureBox1.Bounds.IntersectsWith(label29.Bounds) || pictureBox1.Bounds.IntersectsWith(label30.Bounds))
 
+                    {
 
-                }
-            }
+                    }
         }
     }
 }
+
